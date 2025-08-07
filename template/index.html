@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HematoVision - Upload Blood Cell Image</title>
+</head>
+<body>
+    <h2>Upload Blood Cell Image for Classification</h2>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+
